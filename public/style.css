@@ -1,0 +1,81 @@
+h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin: .75rem auto .75rem 1rem;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: monospace;
+    margin: .75rem auto .25rem 1rem;
+}
+
+
+hr {
+    border-width: 1.25px;
+    margin-bottom: .75rem;
+}
+
+main {
+    margin: 3rem auto;
+    width: 500px;
+    max-width: 80%;
+    background-color: aliceblue;
+}
+
+form {
+    margin: 25% auto auto;
+    padding: 3rem 3rem .5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family:cursive;
+    text-align: center;
+}
+
+input, button {
+    display: block;
+    margin: 1rem auto;
+    font-size: 1.15rem
+}
+
+input {
+    width: 90%;
+    height: 2rem;
+    padding-left: .25rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button {
+    width: 25%;
+    height: 1.75rem;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    border: 3px solid gray;
+}
+
+button:hover {
+    color: gray;
+    background-color: white;
+}
+
+#output {
+    padding-bottom: 2rem;
+}
+
+#output p {
+    font-size: 1.25rem;
+    text-align:center;
+    background-color: white;
+    margin: auto;
+    padding: .5rem;
+    width: 90%;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ekoulé Maneng Charly Karl">
+        <meta name="description" content="An Metric-Imperial Converter">
+        <title>Metric-Imperial Converter</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Converter</h1>
+        <p>an metric-imperial converter</p>
+        <hr>
+        <main>
+            <form onsubmit="return fetchData()">
+                <h2>Enter a measurement to be converted <br>(gal to L / lbs to kg / mi to km):</h2>
+                <input type="text" id="input" placeholder="Value to convert" required>
+                <button type="submit">Convert</button>
+            </form>
+            <div id="output"></div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

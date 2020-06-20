@@ -1,0 +1,22 @@
+{
+  "name": "converter",
+  "author": "Ekoulé Maneng Charly Karl",
+  "version": "0.0.1",
+  "description": "An Metric-Imperial Converter",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.23.0",
+    "mathjs": "^7.0.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "engines": {
+    "node": "10.16.1"
+  }
+}
